@@ -1,0 +1,21 @@
+/* Mengatur paragraf */
+p {
+    font-family: serif;       /* Mengatur font teks dalam paragraf agar menggunakan tipe serif (contoh: Times New Roman).
+                                 Ciri khas: ada kait di ujung huruf → membuat teks terlihat lebih formal dan klasik. */
+    line-height: 1.75em;      /* Mengatur jarak antar baris (line spacing). 
+                                 Nilai 1.75em artinya jarak antar baris 1,75 kali tinggi font → teks jadi lebih mudah dibaca. */
+}
+
+/* Mengatur teks miring (<i>) */
+i {
+    font-family: sans-serif;  /* Mengatur font teks miring agar menggunakan tipe sans-serif (contoh: Arial, Helvetica).
+                                 Ciri khas: huruf polos tanpa kait → lebih modern dan simpel. */
+    color: rgb(255, 0, 47);   /* Mengubah warna teks miring menjadi merah terang dengan kode warna RGB (Red=255, Green=0, Blue=47). */
+}
+
+/* Mengatur judul <h2> */
+h2 {
+    font-family: sans-serif;  /* Judul <h2> menggunakan font sans-serif agar terlihat jelas dan mudah dibaca. */
+    color: #333;              /* Warna teks judul diganti menjadi abu-abu gelap (#333333), 
+                                 lebih lembut daripada hitam pekat sehingga nyaman di mata. */
+}
